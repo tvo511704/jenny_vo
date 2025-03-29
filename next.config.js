@@ -4,14 +4,15 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = withBundleAnalyzer({
-  output: process.env.BUILD_STANDALONE === "true" ? "standalone" : undefined,
+  output: "export", // Enables static export for GitHub Pages
+  distDir: "out", // The directory where Next.js will output static files
   reactStrictMode: true,
   pageExtensions: ["ts", "tsx", "js"],
   eslint: {
     dirs: ["src"],
   },
   images: {
-    domains: ["https://flagcdn.com"],
+    domains: ["flagcdn.com"], // Remove "https://" from the domain, as it's not needed
   },
   webpack: (config) => {
     config.module.rules.push({
@@ -25,7 +26,6 @@ const nextConfig = withBundleAnalyzer({
       child_process: false,
       tls: false,
     };
-
     return config;
   },
 });
