@@ -1,178 +1,78 @@
 import {
-  SiExpress,
-  SiSocketdotio,
-  SiPrisma,
-  SiNextdotjs,
-  SiFlask,
+  SiPython,
+  SiPandas,
+  SiNumpy,
+  SiTableau,
+  SiPowerbi,
+  SiMicrosoftsqlserver,
+  SiMysql,
+  SiPostgresql,
+  SiSelenium,
+  SiJupyter,
+  SiScikitlearn,
+  SiGit,
+  SiVisualstudiocode,
+  SiAmazonaws,
+  SiGooglecloud,
+  SiMicrosoftexcel,
+  SiNotion,
+  SiRstudio,
+  SiTrello,
+  SiAsana,
+  SiGrafana,
+  SiStreamlit,
+  SiGoogleanalytics,
 } from "react-icons/si";
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/icons";
+
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
-
-// Languages
-import HtmlSvg from "@/public/icons/html.svg";
-import CsssSvg from "@/public/icons/css.svg";
-import SassSvg from "@/public/icons/sass.svg";
-import JavascriptSvg from "@/public/icons/javascript.svg";
-import TypescriptSvg from "@/public/icons/typescript.svg";
-import PythonSvg from "@/public/icons/python.svg";
-
-// Libraries
-import ReactjsSvg from "@/public/icons/reactjs.svg";
-import SolidjsSvg from "@/public/icons/solidjs.svg";
-import ReduxSvg from "@/public/icons/redux.svg";
-import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
-import MuiSvg from "@/public/icons/mui.svg";
-import ViteSvg from "@/public/icons/vite.svg";
-
-// Backend
-import NodejsSvg from "@/public/icons/nodejs.svg";
-
-// Database and ORMS
-import MongoDBSvg from "@/public/icons/mongodb.svg";
-import PostgressSvg from "@/public/icons/postgresql.svg";
-
-// Tools and Tech
-import GitSvg from "@/public/icons/git.svg";
-import DockerSvg from "@/public/icons/docker.svg";
-import AwsSvg from "@/public/icons/aws.svg";
-import PostmanSvg from "@/public/icons/postman.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
-    sectionName: "Languages",
+    sectionName: "Languages and Tools",
     skills: [
-      {
-        name: "HTML",
-        icon: HtmlSvg,
-      },
-      {
-        name: "CSS",
-        icon: CsssSvg,
-      },
-      {
-        name: "SASS",
-        icon: SassSvg,
-      },
-      {
-        name: "Javascript",
-        icon: JavascriptSvg,
-      },
-      {
-        name: "Typescript",
-        icon: TypescriptSvg,
-      },
-      {
-        name: "Python",
-        icon: PythonSvg,
-      },
+      { name: "Python", icon: SiPython },
+      { name: "SQL Server", icon: SiMicrosoftsqlserver },
+      { name: "MySQL", icon: SiMysql },
+      { name: "PostgreSQL", icon: SiPostgresql },
+      { name: "RStudio", icon: SiRstudio },
     ],
   },
   {
     sectionName: "Libraries and Frameworks",
     skills: [
-      {
-        name: "Reactjs",
-        icon: ReactjsSvg,
-      },
-      {
-        name: "Nextjs",
-        icon: SiNextdotjs,
-      },
-      {
-        name: "Solidjs",
-        icon: SolidjsSvg,
-      },
-      {
-        name: "React Router Dom",
-        icon: ReactRouterDomIcon,
-      },
-      {
-        name: "Redux",
-        icon: ReduxSvg,
-      },
-      {
-        name: "Tailwindcss",
-        icon: TailwindcssSvg,
-      },
-      {
-        name: "MUI",
-        icon: MuiSvg,
-      },
-      {
-        name: "Framer motion",
-        icon: FramerMotionIcon,
-      },
-      {
-        name: "Vite",
-        icon: ViteSvg,
-      },
-      {
-        name: "Vite PWA",
-        icon: VitePwaIcon,
-      },
+      { name: "Pandas", icon: SiPandas },
+      { name: "NumPy", icon: SiNumpy },
+      { name: "Scikit-Learn", icon: SiScikitlearn },
+      { name: "Selenium", icon: SiSelenium },
+      { name: "Streamlit", icon: SiStreamlit },
     ],
   },
   {
-    sectionName: "Backend",
+    sectionName: "BI & Visualization",
     skills: [
-      {
-        name: "Nodejs",
-        icon: NodejsSvg,
-      },
-      {
-        name: "Express",
-        icon: SiExpress,
-      },
-      {
-        name: "Socket.io",
-        icon: SiSocketdotio,
-      },
-      {
-        name: "Flask",
-        icon: SiFlask,
-      },
+      { name: "Power BI", icon: SiPowerbi },
+      { name: "Tableau", icon: SiTableau },
+      { name: "Excel", icon: SiMicrosoftexcel },
+      { name: "Grafana", icon: SiGrafana },
+      { name: "Looker Studio", icon: SiGoogleanalytics },
     ],
   },
   {
-    sectionName: "Databases and ORMs",
+    sectionName: "Development Tools",
     skills: [
-      {
-        name: "MongoDB",
-        icon: MongoDBSvg,
-      },
-      {
-        name: "Postgress",
-        icon: PostgressSvg,
-      },
-      {
-        name: "Prisma",
-        icon: SiPrisma,
-      },
+      { name: "Jupyter Notebook", icon: SiJupyter },
+      { name: "VS Code", icon: SiVisualstudiocode },
+      { name: "Git", icon: SiGit },
+      { name: "AWS", icon: SiAmazonaws },
+      { name: "Google Cloud", icon: SiGooglecloud },
     ],
   },
   {
-    sectionName: "Tools and Technologies",
+    sectionName: "Project & Collaboration",
     skills: [
-      {
-        name: "Git",
-        icon: GitSvg,
-      },
-      {
-        name: "Docker",
-        icon: DockerSvg,
-      },
-      {
-        name: "AWS",
-        icon: AwsSvg,
-      },
-      {
-        name: "Postman",
-        icon: PostmanSvg,
-      },
+      { name: "Notion", icon: SiNotion },
+      { name: "Trello", icon: SiTrello },
+      { name: "Asana", icon: SiAsana },
     ],
   },
 ];
