@@ -2,36 +2,25 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Engineering in Electronics and Telecommunication",
+    title: "Master of Science in Business Analytics",
     organisation: {
-      name: "Rizvi College Of Engineering",
-      href: "https://eng.rizvi.edu.in/",
+      name: "University of the Pacific",
+      href: "https://www.pacific.edu/",
     },
-    date: "2019-2023",
-    location: "Bandra, Mumbai",
+    date: "2024 - 2025",
+    location: "California, USA",
     description:
-      "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
+      "Maintain high GPA of 4.0 with the relevant courses included Business Concepts and Applications of Analytics, Database Management with SQL and R.",
   },
   {
-    title: "Higher Secondary School",
+    title: "Bachelor of Science in Marketing",
     organisation: {
-      name: "Mithibai College",
-      href: "https://www.mithibai.ac.in/",
+      name: "University of Economics Ho Chi Minh",
+      href: "https://ueh.edu.vn/en/",
     },
-    date: "2016-2018",
-    location: "Vile Parle, Mumbai",
+    date: "2020 - 2024",
+    location: "Ho Chi Minh City, Vietnam",
     description:
-      "Completed the course in Electronics Bifocal Science with 68%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
-  },
-  {
-    title: "Secondary School Education",
-    organisation: {
-      name: "Holy Family High School",
-      href: "https://holyfamilyandheri.org/",
-    },
-    date: "2017-2018",
-    location: "Andheri, Mumbai",
-    description:
-      "Learned good values,dedication and disciplne. Played district football for 5 years.",
+      "Completed the courses in Strategic Management, Statistics and Mathematics for Business and Economics. Developed an interest in the intersection of data analysis and creativity.",
   },
 ];

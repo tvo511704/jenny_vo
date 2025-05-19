@@ -23,7 +23,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/data/siteMetaData.mjs"
+    "src/data/siteMetaData.mjs",
+    "src/components/Typewriter/Typewriter.jsx"
   ],
   "exclude": ["node_modules"]
 }

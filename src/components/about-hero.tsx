@@ -6,7 +6,6 @@ import { AnimatePresence } from "framer-motion";
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
 import heroProfileImg from "@/public/images/heroProfile.png";
-import DuotoneImage from "./duotone-image";
 
 export default function AboutHero() {
   return (
@@ -14,14 +13,12 @@ export default function AboutHero() {
       <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="hero-image" duration={0.6}>
-            <DuotoneImage
+            <Image
               src={heroProfileImg}
               width={100}
               height={100}
               className="h-auto w-full px-0 xl:px-16"
               alt="hero image"
-              lightColor="#E0FFFF"
-              darkColor="#004D4D"
               unoptimized
             />
           </FadeUp>
@@ -31,14 +28,27 @@ export default function AboutHero() {
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
             <h1 className="text-6xl font-bold text-accent sm:text-7xl md:text-6xl lg:text-5xl xl:text-7xl">
-              Hi, I&apos;m Amit Chauhan
+              Hi, I&apos;m Jenny
             </h1>
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              I turn vision into reality with code. Whether I&apos;m working on
-              a website or any digital product, I bring my commitment to design
-              excellence and user-centered thinking to every project I work on.
+              <br />
+              <br />
+              <p>
+                With a strong foundation in{" "}
+                <span className="font-semibold text-accent">Python</span>,{" "}
+                <span className="font-semibold text-accent">SQL</span>,{" "}
+                <span className="font-semibold text-accent">Excel</span>, and{" "}
+                <span className="font-semibold text-accent">Tableau</span>, I
+                uncover trends and deliver clear analytics.
+              </p>
+              <br></br>I manage projects efficiently using tools like{" "}
+              <span className="font-semibold text-accent">ClickUp</span>,{" "}
+              <span className="font-semibold text-accent">Trello</span>,{" "}
+              <span className="font-semibold text-accent">Asana</span>, and{" "}
+              <span className="font-semibold text-accent">Google Sheets</span>{" "}
+              ensuring every initiative stays aligned and on track.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
@@ -47,8 +57,8 @@ export default function AboutHero() {
               <Link href="/projects" className="underline underline-offset-4">
                 <span className="text-accent">projects</span>
               </Link>{" "}
-              showcasing my expertise in Reactjs, Nextjs, Javascript, Typescript
-              and web development.
+              showcasing my expertise in Python, SQL, Google Sheets, Tableau and
+              PowerBI.
             </p>
           </FadeUp>
           <FadeRight
@@ -60,14 +70,14 @@ export default function AboutHero() {
             <div className="relative flex w-12 gap-4 overflow-hidden rounded-md">
               <Image
                 className="-z-10 h-full w-full bg-cover bg-no-repeat"
-                alt="Indian flag"
-                src="https://flagcdn.com/in.svg"
+                alt="USA flag"
+                src="https://flagcdn.com/us.svg"
                 width={15}
                 height={15}
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Mumbai, India
+              California, USA
             </span>
           </FadeRight>
         </AnimatePresence>

@@ -2,35 +2,47 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Software Developer",
+    title: "Project Management Coordinator",
     organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
+      name: "University of the Pacific - HR Department",
+      href: "https://www.pacific.edu/about-pacific/administrative-offices/business-and-finance-division/human-resources",
     },
-    date: "Oct 2023 - Present",
-    location: "Mumbai",
-    description: "Reactjs and Nextjs app development",
+    date: "Nov 2024 - Present",
+    location: "California, USA",
+    description:
+      "Streamlined HR processes by automating workflows and launching a ticketing system, improving request resolution for 1,000+ staff. Managed cross-functional projects, ensuring on-time, in-scope delivery across teams and vendors.",
   },
   {
-    title: "Engineering Trainee",
+    title: "MSBA Graduate Teaching Assistant",
     organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
+      name: "University of the Pacific - Eberhardt School of Business",
+      href: "https://www.pacific.edu/business",
     },
-    date: "July 2023 - Sep 2023",
-    location: "Remote",
+    date: "Jan 2025 - May 2025",
+    location: "California, USA",
     description:
-      "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
+      "Led lab sessions in Excel, SQL, and Power BI, boosting student engagement in analytics. Provided individualized support and improved understanding of complex data concepts.",
   },
   {
-    title: "Frontend Developer Intern",
+    title: "Marketing Executive",
     organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
+      name: "Grab",
+      href: "https://www.grab.com/sg/",
     },
-    date: "Winter - 2022",
-    location: "Remote",
+    date: "Feb 2024 - Jul 2024",
+    location: "Vietnam",
     description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
+      "Built campaign dashboards and analyzed social media data, driving a 20% GMV increase and 10% post-campaign uplift. Collaborated with product and marketing teams to optimize strategy.",
+  },
+  {
+    title: "Junior Social Commerce Executive",
+    organisation: {
+      name: "Publicis Groupe",
+      href: "https://www.publicisgroupe.com/en",
+    },
+    date: "May 2023 - Feb 2024",
+    location: "Vietnam",
+    description:
+      "Executed A/B tests and built KPI dashboards in Looker Studio, growing engagement by 35% and monthly GMV by 30% for Unilever. Aligned campaign execution with performance insights.",
   },
 ];

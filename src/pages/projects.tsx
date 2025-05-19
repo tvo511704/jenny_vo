@@ -43,7 +43,8 @@ export default function Projects() {
           </h1>
           <div className="my-2">
             <span className="text-sm text-muted-foreground">
-              Here are some of the projects I&apos;d like to share
+              From dashboards to automation, here are projects where I solved
+              problems and delivered measurable results.
             </span>
           </div>
           <div className="mt-8 grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-2">

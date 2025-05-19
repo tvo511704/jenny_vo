@@ -10,18 +10,18 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About Amit Chauhan | Software Developer"
-        description="Learn more about Amit Chauhan, a dedicated Software Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
+        title="About Jenny | Data Concierge"
+        description="Learn more about Jenny, a dedicated Data Analyst and Project Management Coordinator with 2 years of experience. Discover how my journey, analytical skills, and project management experience empower me to deliver data-driven insights and streamlined, user-focused solutions."
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,
-          title: "Learn About Amit Chauhan - Software Developer",
+          title: "Learn About Jenny - Data Analyst",
           description:
-            "Dive into the story of Amit Chauhan, a Software Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
+            "Dive into the story of Jenny, a Data Analyst. Uncover the experiences, skills, and passion that drive my commitment to delivering impactful data insights and efficient project outcomes.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "Jenny - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -34,7 +34,7 @@ export default function About() {
           {
             property: "keywords",
             content:
-              "Software Developer portfolio, Software Developer, React Developer, Frontend Developer, Web Developer, JavaScript, HTML, CSS, Professional Journey, Skills, Passion for Web Development",
+              "Data Analyst portfolio, Project Management Coordinator, Python, SQL, PowerBI, Tableau, Google Sheets, Asana, Trello",
           },
         ]}
       />

@@ -17,6 +17,7 @@ export interface SkillsShowcaseProps {
 export default function SkillsShowcase({ skills }: SkillsShowcaseProps) {
   const isMobile = useScreenBreakpoint(640);
   const isMobileDebonced = useDebounceValue(isMobile, 600);
+
   return (
     <section className="overflow-hidden px-6 py-32 sm:px-14 md:px-20">
       <div className="relative mx-auto max-w-7xl">
@@ -38,7 +39,7 @@ export default function SkillsShowcase({ skills }: SkillsShowcaseProps) {
                     whileInView={!isMobileDebonced}
                     className="-z-20"
                   >
-                    <SkillPill {...pill} />
+                    <SkillPill {...pill} useThemeColor={true} />
                   </FadeRight>
                 ))}
               </div>
