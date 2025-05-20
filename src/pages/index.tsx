@@ -1,5 +1,3 @@
-import Head from "next/head";
-
 import { NextSeo } from "next-seo";
 
 import LandingHero from "@/components/landing-hero";
@@ -14,13 +12,13 @@ export default function Home() {
     <>
       <NextSeo
         title="Jenny | Data Concierge"
-        description="Explore the professional portfolio of Amit Chauhan, a skilled Software Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        description="Explore the professional portfolio of Jenny, a skilled Data Analyst with hands-on experience. Discover innovative projects, expertise in analytics, and a passion for insights-driven decisions."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
           title: "Jenny | Data Concierge",
           description:
-            "Dive into the world of web development with Amit Chauhan. Discover a Software Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of analytics with Jenny. Discover a Data Analyst showcasing impactful projects and a commitment to data-driven decision making.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -37,18 +35,11 @@ export default function Home() {
           {
             property: "keywords",
             content:
-              "Python, SQL, PowerBI, Tableau, Google Sheet, Asana, Trello, Smartsheets",
+              "Python, SQL, Power BI, Tableau, Google Sheets, Asana, Trello, Smartsheet",
           },
         ]}
       />
-      <Head>
-        {siteMetadata.googleSiteVerification && (
-          <meta
-            name="google-site-verification"
-            content={siteMetadata.googleSiteVerification}
-          />
-        )}
-      </Head>
+
       <LandingHero />
       <SkillsShowcase skills={SKILLS_DATA} />
       <ProjectShowcase projects={PROJECT_SHOWCASE} />

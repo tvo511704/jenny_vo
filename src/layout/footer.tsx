@@ -1,6 +1,5 @@
-import ContactButton from "@/components/contact-form/contact-button";
 import { LinkedinIcon } from "@/components/icons";
-import { MailIcon } from "lucide-react"; // or use your own
+import { MailIcon } from "lucide-react";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Footer() {
@@ -9,23 +8,25 @@ export default function Footer() {
       <div
         className="mx-auto flex w-full max-w-7xl flex-col gap-8 rounded-2xl bg-cover bg-center bg-no-repeat p-8 text-background sm:p-12 md:gap-12 lg:p-20"
         style={{
-          backgroundImage: "url('/images/background.jpeg')", // or wherever your image is
-          backgroundColor: "rgba(10, 113, 120, 0.53)", // fallback tone matching accent
-          backgroundBlendMode: "overlay", // makes the overlay work with image
+          backgroundImage: "url('/images/background.jpeg')",
+          backgroundColor: "rgba(10, 113, 120, 0.53)",
+          backgroundBlendMode: "overlay",
         }}
       >
+        {/* Header Text */}
         <div className="text-center">
           <span className="inline-block rounded-full bg-background px-3 py-1 text-xs font-semibold uppercase text-accent md:text-sm lg:text-base">
             Get in touch
           </span>
         </div>
 
+        {/* Email */}
         <a
           href={`mailto:${siteMetadata.email}`}
           target="_blank"
           className="mb-6 cursor-pointer text-center text-2xl font-bold underline sm:text-4xl lg:text-6xl"
         >
-          <span>{siteMetadata.email}</span>
+          {siteMetadata.email}
         </a>
 
         {/* Icons Row */}
@@ -41,13 +42,9 @@ export default function Footer() {
             <LinkedinIcon className="h-12 w-12 text-background hover:text-white" />
           </a>
         </div>
-
-        {/* Send Message Button */}
-        <div className="mt-4 flex justify-center">
-          <ContactButton />
-        </div>
       </div>
 
+      {/* Footer Bottom */}
       <div className="flex w-full flex-col items-center justify-between gap-8 text-center md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
         <span className="text-foreground">©2025 Jenny</span>
         <div className="flex gap-8">
@@ -55,7 +52,7 @@ export default function Footer() {
             href={siteMetadata.linkedin}
             target="_blank"
             className="h-6 w-6"
-            aria-label="link to Linkedin"
+            aria-label="Link to LinkedIn"
           >
             <LinkedinIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
           </a>

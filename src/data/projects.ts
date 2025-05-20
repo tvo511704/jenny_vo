@@ -4,7 +4,7 @@ import { type ProjectShowcaseListItem } from "@/components/projects/project-show
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Diamond Project",
+    title: "Diamond Mining",
     href: "/projects",
     tags: ["Excel", "PowerBI", "Tableau"],
     image: {
@@ -24,9 +24,9 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 2,
-    title: "Wine Project",
+    title: "Wine Market Intelligence",
     href: "/projects",
-    tags: ["Google Big Query", "Python", "Grafana"],
+    tags: ["Google BigQuery", "Python", "Grafana"],
     image: {
       LIGHT: "/images/projects/LightWine.webp",
       DARK: "/images/projects/DarkWine.webp",
@@ -79,7 +79,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/prediction12.webp",
     ],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
+      "End-to-end travel analytics project using Python and Streamlit. Scraped real-time flight, Airbnb, and Reddit data, performed exploratory and sentiment analysis, built machine learning models (XGBoost, VADER), and delivered interactive dashboards for destination recommendations.",
     liveWebsiteHref:
       "https://drive.google.com/file/d/10pTiR_oWthNBcnFtg4hXBzEiEpvSmXju/view?usp=sharing",
   },
@@ -88,7 +88,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/favicon.ico",
     imageUrl: ["/images/projects/LightPM.webp", "/images/projects/PM2.webp"],
     description:
-      "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
+      "Automated project management tracker using Google Sheets and Apps Script. Built a time-tracking system to monitor teammate activity and deadlines in real time, streamlining task updates and improving accountability.",
     liveWebsiteHref:
       "https://docs.google.com/spreadsheets/d/1ibVi_5r833_DNTYLLtGQuSrnmi9pWR2z74jPylkMmhM/edit?usp=sharing",
   },
@@ -101,9 +101,9 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/HR3.webp",
     ],
     description:
-      "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
+      "Employee tracker dashboard for HR staff to compare training engagement across divisions and schools by course. Built a reusable and visual dashboard for internal insights by using Google Looker Studio. *Note: Mockup version used to protect confidential content.*",
     liveWebsiteHref:
-      "https://lookerstudio.google.com/reporting/cc2c65c7-3f28-4a96-bb5c-fb6fb91c1c3a",
+      "https://lookerstudio.google.com/reporting/295713f6-95ff-4819-8174-4c7fde1b3e09",
   },
   {
     name: "Friesland Campina Pitching Proposal",
@@ -118,7 +118,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/FCV7.webp",
     ],
     description:
-      "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
+      "Pitching proposal developed from the ground up by analyzing market trends, identifying client strengths, and uncovering niche opportunities. Delivered a strategic plan targeting relevant segments and enhancing the client’s unique positioning to bridge market gaps.",
     liveWebsiteHref:
       "https://drive.google.com/file/d/1hzxwIJQOygc2zzW-8YFXoZZM7Vf4BRAw/view?usp=drive_link",
   },
