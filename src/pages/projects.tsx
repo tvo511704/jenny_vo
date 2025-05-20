@@ -8,18 +8,18 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects by Amit Chauhan - Software Developer Portfolio"
-        description="Explore a collection of projects by Amit Chauhan, a seasoned Software Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
+        title="Projects by Jenny - Data Concierge"
+        description="Explore a collection of projects by Jenny, a skilled Data Analyst with end-to-end problem-solving capabilities — from data collection and analysis to actionable insights and impactful visualizations."
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/projects`,
-          title: "Discover Projects by Amit Chauhan - Software Developer",
+          title: "Discover Projects by Jenny - Data Concierge",
           description:
-            "Explore a showcase of projects crafted by Amit Chauhan, a Software Developer. Witness the fusion of creativity and technology in web development.",
+            "Explore projects by Jenny, a Data Analyst skilled in solving problems end-to-end — from data gathering to delivering clear, actionable insights.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "Jenny - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -32,7 +32,7 @@ export default function Projects() {
           {
             property: "keywords",
             content:
-              "Projects,Amit Portfolio, Software Developer, React Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
+              "Projects,Jenny Portfolio, Data Analyst, Project Management Coordinator, Python, SQL, Google Sheets, Excel, PowerBI, Tableau, Grafana, R Studio",
           },
         ]}
       />
@@ -43,8 +43,10 @@ export default function Projects() {
           </h1>
           <div className="my-2">
             <span className="text-sm text-muted-foreground">
-              From dashboards to automation, here are projects where I solved
-              problems and delivered measurable results.
+              From dashboards to automation, these projects showcase my ability
+              to deliver end-to-end solutions — from identifying problems,
+              handling missing data, conducting exploratory analysis, uncovering
+              insights, and driving measurable results.
             </span>
           </div>
           <div className="mt-8 grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-2">
@@ -54,11 +56,12 @@ export default function Projects() {
           </div>
           <div className="mx-auto mt-16 max-w-5xl text-center text-foreground md:mt-28">
             <span className="text-xl font-bold md:text-2xl">
-              I am currently building new projects and learning backend
-              development to expand my skill set beyond frontend.
+              I’m currently immersed in a variety of real-world cases,
+              delivering end-to-end data projects. My passion for this field
+              continues to grow with every challenge I tackle.
             </span>
             <p className="mt-10 text-base md:text-xl">
-              Visit my github to see some of the latest projects{" "}
+              Stay tuned and explore all my latest work on{" "}
               <a
                 href={`${siteMetadata.github}?tab=repositories`}
                 target="_blank"
